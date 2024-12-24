@@ -20,7 +20,7 @@ html {
   }
   
   .calculator-screen {
-    width: 370px;
+    width: 375px;
     height: 80px;
     border: 2px solid #ff004f;
     border-radius: 15px;
@@ -51,16 +51,16 @@ html {
   .calculator-keys {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
+    grid-gap: 15px;
     padding: 20px;
    
   }
-  .container{
+  .container1{
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-   
+  
   }
 .calculator-card{
   height: 500px;
@@ -74,3 +74,13 @@ input:active{
   transform: translateY(-6px);
   background: #ff004f;
 }
+@media only screen and (max-width: 600px){
+  .calculator-screen {
+    width: 300px;
+  }
+  .calculator {
+   
+    width: 300px;
+  }
+}
+
